@@ -1,0 +1,45 @@
+header{
+    background-color: rgb(109, 112, 138);
+    padding: 20px;
+    margin: 20px;
+}
+
+.introduction{
+    background-color: rgb(86, 100, 121);
+    margin: 20px;
+    padding: 20px;
+}
+
+#skills li{
+    border: 1px solid rgb(14, 14, 29);
+    padding: 20px;
+    margin: 20px;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+.contact{
+    background-color: #0f283f;
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+    color: beige;
+}
+
+#skills{
+    background-color: #445665;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+body{
+    background-color: #aea5a5;
+}
+
+@media only screen and (max-width: 600px) {
+    .introduction, #skills, .contact {
+      margin: 10px;
+      padding: 10px;
